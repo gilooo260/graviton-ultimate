@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# GRAVITON specific
+checkpoints/*.pt
+logs/*.log
+results/*.png
+results/*.json
+data/*.h5
+*.pyc
+
+# Weights & Biases
+wandb/
+
+# Temporary
+*.tmp
+temp/
+```
